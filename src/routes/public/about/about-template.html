@@ -1,0 +1,18 @@
+<!--  -->
+
+<div class="bar bar-header bar-positive" v-touch:taphold="showTuts">
+    <button class="button button-icon icon-left icon ion-person-add" v-link="{ name: 'public.register' }">Register</button>
+    <h1 class="title">Convoy</h1>
+    <button class="button button-icon icon-right icon ion-person" v-link="{ name: 'public.login' }">Login</button>
+</div>
+
+<div id="content">
+    <div class="card">
+        <li class="item item-divider">
+            <button class="button button-block button-positive" v-touch:tap="dev1">Open</button>
+            <button class="button button-block button-positive" v-touch:tap="dev2">Close</button>
+            <button class="button button-block button-positive" v-touch:tap="dev3">Dev3</button>
+        </li>
+    </div>
+</div>
+

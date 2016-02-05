@@ -1,0 +1,16 @@
+{
+	"name": "HelloIonic",
+	"private": "true",
+	"dependencies": {
+		"forge": "latest",
+		"ionicons": "latest",
+		"lodash": "latest",
+		"turf": "latest",
+		"bluebird": "latest",
+		"lokijs": "latest",
+		"lockr": "latest",
+		"socketcluster-client": "latest",
+		"smartcrop": "latest"
+	}
+}
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+ionic run android --target=HT495SF00457 -l -d --nogulp --browserify
+# ionic run android -l -d --nogulp --browserify

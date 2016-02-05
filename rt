@@ -1,0 +1,2 @@
+#!/bin/bash
+ionic run android --target=R32D202YNVW -l -d --nogulp --browserify

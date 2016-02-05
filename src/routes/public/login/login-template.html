@@ -1,0 +1,46 @@
+<!--  -->
+
+<div class="bar bar-header bar-positive" v-touch:taphold="showTuts">
+    <button class="button button-icon icon-left icon ion-person-add" v-link="{ name: 'public.register' }">Register</button>
+    <h1 class="title">Login</h1>
+    <button class="button button-icon icon-right icon ion-information" v-link="{ name: 'public.about' }">Convoy</button>
+</div>
+
+<div id="content">
+    <form class="list list-inset">
+    <!-- <ul class="list list-inset"> -->
+    <!-- <form class="list list-inset"> -->
+
+        <li class="item item-divider">
+            Username
+        </li>
+        <label class="item item-input">
+            <input type="text" v-model="uname">
+        </label>
+
+        <li class="item item-divider">
+            Password
+        </li>
+        <label class="item item-input">
+            <input type="text" v-model="pass">
+        </label>
+
+        <li class="item item-divider">
+            <button type="submit" class="button button-block button-positive">Login</button>
+        </li>
+
+<!--         <li class="item item-divider">
+            <button class="button button-block button-positive" v-on:click="login('androidp')">Login Android Phone</button>
+            <button class="button button-block button-positive" v-on:click="login('applep')">Login Apple iPhone</button>
+            <button class="button button-block button-positive" v-on:click="login('androidt')">Login Android Tablet</button>
+        </li> -->
+
+        <!--         <li class="item item-divider">
+            <button class="button button-block button-positive" ng-click="login_DEV('cel123')">Login cl123</button>
+            <button class="button button-block button-positive" ng-click="login_DEV('ll123')">Login ll123</button>
+        </li> -->
+        <!-- </ul> -->
+    </form>
+
+</div>
+

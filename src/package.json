@@ -1,0 +1,37 @@
+{
+	"name": "convoy-app",
+	"version": "0.0.1",
+	"description": "creep on people",
+	"main": "app.js",
+	"author": "Rob Laverty",
+	"license": "MINE!",
+	"scripts": {
+		"dev": "watchify -e app.js -t partialify -o ../www/build.js -v -d"
+	},
+	"devDependencies": {
+		"partialify": "*",
+		"watchify": "*",
+		"browserify": "*",
+		"uglify-js": "*"
+	},
+	"dependencies": {
+		"lockr": "*",
+		"dexie": "*",
+		"superagent": "*",
+		"bluebird": "*",
+		"chance": "*",
+		"events": "*",
+		"inherits": "*",
+		"hammerjs": "*",
+		"lodash": "*",
+		"lokijs": "*",
+		"moment": "*",
+		"socketcluster-client": "*",
+		"turf": "*",
+		"vue": "*",
+		"vue-router": "*",
+		"vue-touch": "*",
+		"samsarajs": "*"
+	}
+}
+

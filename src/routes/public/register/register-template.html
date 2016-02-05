@@ -1,0 +1,59 @@
+<!--  -->
+
+<div class="bar bar-header bar-positive" v-touch:taphold="showTuts">
+    <button class="button button-icon icon-left icon ion-information" v-link="{ name: 'public.about' }">Convoy</button>
+    <h1 class="title">Register</h1>
+    <button class="button button-icon icon-right icon ion-person" v-link="{ name: 'public.login' }">Login</button>
+</div>
+
+<div id="content">
+    <form class="list list-inset">
+        <!-- <ul class="list list-inset"> -->
+        
+        <li class="item item-divider">
+            Display Name
+            <p class="">We recommend using your first and last name, but you certainly don't have to.</p>
+        </li>
+        <label class="item item-input">
+            <input type="text" v-model="dname" required>
+        </label>
+
+        <!--         <li class="item item-divider item-icon-right">
+            Phone Number
+            <i class="icon ion-ios-flag-outline"></i>
+            <span class="item-note">
+                USA
+            </span>
+        </li>
+        <label class="item item-input">
+            <input type="tel" v-model="phone">
+        </label>
+        <li class="item">
+            <p>We will send you a verification link via SMS.
+                <br> Our number 662-337-6433
+                <br>
+                <small>You may opt out of providing this info. Your account will be flagged as unverified.</small>
+            </p> DEVVVVVVV
+        </li> -->
+
+        <li class="item item-divider">
+            Username
+        </li>
+        <label class="item item-input">
+            <input type="text" v-model="uname" required>
+        </label>
+
+        <li class="item item-divider">
+            Password
+        </li>
+        <label class="item item-input">
+            <input type="text" v-model="pass" required>
+        </label>
+
+        <li class="item item-divider">
+            <!-- <button type="submit" class="button button-block button-positive" v-on:click="register">Register</button> -->
+            <button type="submit" class="button button-block button-positive">Register</button>
+        </li>
+    </form>
+</div>
+
